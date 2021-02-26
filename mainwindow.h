@@ -18,7 +18,6 @@ public:
 
 public slots:
     void readSerial();
-    void serialPortError(QSerialPort::SerialPortError error);
 
 private:
     Ui::MainWindow *ui;
